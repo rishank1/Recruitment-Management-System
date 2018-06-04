@@ -1,0 +1,24 @@
+.App-header {
+  background-color: #222;
+  height: 10vh;
+  width:100%;
+  padding-top:2vh;
+  color: white;
+  text-align: center;
+  font-size: 4vh;
+  vertical-align:center;
+}
+
+.setter{
+	padding-top:0.5vh;
+	width:33.33%;
+	float:left;
+	text-align:center;
+	background-color:#AED;
+	height:6vh;
+	font-weight:bold;
+	font-size:3vh;
+}
+.setter:hover {
+    background-color: #AFD;
+}
