@@ -1,11 +1,10 @@
 import React from 'react'
+import data from '../jsonfiles/customData.json'
 
-class jobData extends React.Component{
+export class JobData extends React.Component{
 	render(){
 		return(
-		<h1>Hi</h1>
+		<div>{data[0]["id"]}</div>
 	);
 	}
 }
-
-export default jobData;
