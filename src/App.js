@@ -37,9 +37,9 @@ class App extends React.Component{
 				 className="App-header" >Recruitment Management System
 			</div>
 			<div>
-					<div class="setter" onClick={this.changeStateToJoblist}>JobList</div>
-					<div class="setter" onClick={this.changeStateToResumes}>Resumes</div>
-					<div class="setter" onClick={this.changeStateToAddResumes}>AddResumes</div><br/><br/>
+					<div className="setter" onClick={this.changeStateToJoblist}>JobList</div>
+					<div className="setter" onClick={this.changeStateToResumes}>Resumes</div>
+					<div className="setter" onClick={this.changeStateToAddResumes}>AddResumes</div><br/><br/>
 					<div>{this.state.defaultPage}</div>
 			</div>
 		</div>
